@@ -57,6 +57,6 @@ window.EagerSatisMeter = {
         } else {
             return;
         }
-        
+
     }
 };

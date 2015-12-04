@@ -18,7 +18,7 @@
         "title": "Elevio Account ID",
         "description": "Grab this from your  <a href=\"https://app.elev.io/settings\" target=\"_blank\" class=\"with-inherited-color more\"><strong>settings page</strong> on elev.io</a>",
         "type": "string",
-        "placeholder": "youraccountid"
+        "placeholder": "5660f08d908df"
       },
       "docked_position": {
         "order": 2,
@@ -33,7 +33,8 @@
           "button": "Button",
           "floor": "Footer tab",
           "wall": "Sidebar tab"
-        }
+        },
+        "default": "wall"
       },
       "side": {
         "order": 3,
@@ -47,13 +48,16 @@
           "left": "Left",
           "right": "Right"
         },
-        "placeholder": "window.Eager.auth.currentUser"
+        "placeholder": "window.Eager.auth.currentUser",
+        "default": "right"
       },
       "main_color": {
         "order": 4,
         "title": "Main color?",
         "type": "string",
-        "format": "color"
+        "format": "color",
+        "default": "#00bcd4",
+        "placeholder": "#000000"
       },
       "automaticUser": {
         "order": 5,
